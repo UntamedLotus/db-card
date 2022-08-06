@@ -1,15 +1,13 @@
 import React from "react";
 import "./App.css";
-import { Header } from "./Header";
-import MainContent from "./MainContent";
-import { Footer } from "./Footer";
+import { Header } from "./components/Header/Header";
+import MainContent from "./components/mainContent/mainContents";
 
 function App() {
   return (
     <div className="container">
       <Header />
       <MainContent />
-      <Footer />
     </div>
   );
 }
